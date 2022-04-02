@@ -1,0 +1,307 @@
+@media screen and (min-width: 800px) {
+  body,
+  input {
+    font-family: Arial;
+    font-size: 15pt;
+    margin: auto;
+    width: 800px;
+  }
+
+  .dirst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .first {
+    grid-column: 1;
+    grid-row: 1/4;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  #photoabove {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    background-color: #1d8b7d;
+    color: white;
+    padding: 5px;
+  }
+
+  .second {
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+    height: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  #photobelow {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    background-color: #1d8b7d;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  #third {
+    grid-column: 1/-1;
+    grid-row: 4;
+    background-image: url("osteoRDV800x168.jpg");
+    height: 168px;
+  }
+
+  #third > div {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    margin-top: 0px;
+    font-size: 35px;
+    text-align: center;
+    color: #1d8b7d;
+  }
+  section {
+    line-height: 30px;
+  }
+
+  section span {
+    width: 150px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 180px;
+  }
+  input[type="email"] {
+    width: 250px;
+  }
+
+  input[type="date"] {
+    width: 220px;
+  }
+
+  input[type="time"] {
+    width: 140px;
+  }
+  input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+  }
+
+  select {
+    height: 30px;
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .middle {
+    padding-top: 10px;
+  }
+
+  .form {
+    margin-top: -22px;
+  }
+
+  .middle,
+  .form {
+    background-color: #f8f8f8;
+    font-size: 24px;
+    padding-left: 50px;
+  }
+
+  .deb {
+    display: grid;
+    background-color: #313445;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 120px;
+  }
+
+  .last {
+    margin-left: 50px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .plast {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    font-size: 12px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  button {
+    background-color: #1d8b7d;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+}
+th.ui-datepicker-week-end,
+td.ui-datepicker-week-end {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 400px;
+    font-family: Arial;
+    font-size: 12pt;
+    margin: auto;
+  }
+  #dirst {
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .first {
+    width: 400px;
+    grid-column: 1/-1;
+    grid-row: 1;
+    margin-left: 20px;
+  }
+
+  #photoabove {
+    grid-column: 1/-1;
+    grid-row: 2;
+    text-align: center;
+    background-color: rgb(17, 132, 136);
+    color: white;
+    padding: 5px;
+  }
+
+  .second {
+    width: 400px;
+    grid-column: 1/-1;
+    grid-row: 3;
+    margin-top: -8px;
+    margin-bottom: -12px;
+    margin-left: 70px;
+  }
+
+  #photobelow {
+    grid-column: 1/-1;
+    grid-row: 4;
+    text-align: center;
+    background-color: rgb(17, 132, 136);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  #third {
+    width: 400px;
+    grid-column: 1/-1;
+    grid-row: 5;
+    background-image: url("osteoRDV400x120.jpg");
+    height: 120px;
+  }
+
+  #third > div {
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(17, 132, 136);
+  }
+
+  section {
+    line-height: 30px;
+  }
+
+  section span {
+    width: 100px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 130px;
+  }
+  input[type="email"] {
+    width: 170px;
+  }
+
+  input[type="date"] {
+    width: 150px;
+  }
+
+  input[type="time"] {
+    width: 100px;
+  }
+
+  .middle {
+    padding-top: 10px;
+  }
+
+  .form {
+    margin-top: -22px;
+  }
+
+  .middle,
+  .form {
+    width: 400px;
+    background-color: #f8f8f8;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  select {
+    height: 30px;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  button {
+    background-color: #1d8b7d;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .deb {
+    width: 400px;
+    display: grid;
+    background-color: #313445;
+    grid-row: 120px;
+  }
+
+  .last {
+    margin-left: 50px;
+    grid-row: 1;
+  }
+  .plast {
+    grid-row: 2;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  th.ui-datepicker-week-end,
+  td.ui-datepicker-week-end {
+    display: none;
+  }
+}

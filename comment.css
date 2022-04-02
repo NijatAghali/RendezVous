@@ -1,0 +1,13 @@
+/*
+HTML - I divided all parts to divs. I named them as dirst, middle, form and deb. I also divided 'dirst' and 'deb' to divs and named them as well for making great grid. These divs contains photos and words which used for background photos. Then I made unordered list in the middle part, and then I created php form boxes bottom of it. At the end  I divided last div to two parts, one of them is for photo, the other was links. 
+
+
+CSS - I set @media screen widths, fonts. For desktop, I displayed first parts div(dirst) to grid which had 2 columns and several rows. Then I sorted them respectively. Then I passed two second part. In there, I set forms according to given example. I divided the last part div(deb) to two columns and one row. This was the main structure of my code. Some things I didn't mentioned you can see easily. 
+
+JS - I used datepicker for calendar. And I wrote code in css for making disabled week-end days. For making disabled certain hours I used min-max in input.
+
+
+Thank you!
+
+
+*/
